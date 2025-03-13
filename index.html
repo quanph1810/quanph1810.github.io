@@ -1,0 +1,47 @@
+<main id=app>
+  <h1>Aqua Buttons</h1>
+
+  <div class="static">
+    <button>
+      <span>
+        Aqua button
+      </span>
+      <svg viewBox="0 0 22 22" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+        <line x1="15" y1="16" x2="19" y2="12"></line>
+        <line x1="15" y1="8" x2="19" y2="12"></line>
+      </svg>
+
+      <svg class="spinner" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z" />
+      </svg>
+
+    </button>
+    <input id="blur" type="range" min=0 max=10 value=0 step=0.2>
+  </div>
+
+  <div class="custom">
+    <button>
+      <span>
+        Random color
+      </span>
+      <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25"></path>
+        <circle cx="8.5" cy="10.5" r="1"></circle>
+        <circle cx="12.5" cy="7.5" r="1"></circle>
+        <circle cx="16.5" cy="10.5" r="1"></circle>
+      </svg>
+
+    </button>
+
+    <input id="hue1" type="range" min=0 max=360 value=30>
+    <input id="sat1" type="range" min=0 max=100 value=50>
+    <input id="hue2" type="range" min=0 max=360 value=5>
+    <input id="sat2" type="range" min=0 max=100 value=80>
+    <input id="grad" type="range" orient="vertical" min="10" max="40" value=30>
+    <input id="gradoff" type="range" orient="vertical" min="20" max="120" value=50>
+  </div>
+  <p>design inspiration from <a href="https://twitter.com/alazybrick/status/1600191967907938320">@alazybrick on Twitter</a></p>
+</main>
